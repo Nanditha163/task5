@@ -1,0 +1,66 @@
+EX1:       num1=int(input("enter the input one:"))
+           num2=int(input("enter the input two:"))
+           print("Enter your choice:")
+           ch=input("Enter an operator :")
+           result=0
+           if ch=='+':
+              result=num1+num2
+           elif ch=='-':
+              result=num1-num2
+           elif ch=='*':
+              result=num1*num2
+           elif ch=='/':
+              result=num1/num2
+           else:
+              print("invalid");
+          print(num1,ch,num2,":",result)
+          
+          
+OUTPUT:
+1.   enter the input one:86                                
+     enter the input two:34
+     Enter your choice:
+     Enter an operator :+
+     86 + 34 : 120
+
+     Process finished with exit code 0
+     
+2.   enter the input one:68
+     enter the input two:24
+     Enter your choice:
+     Enter an operator :-
+     68 - 24 : 44
+
+     Process finished with exit code 0
+     
+3.   enter the input one:12
+     enter the input two:2
+     Enter your choice:
+     Enter an operator :*
+     12 * 2 : 24
+     
+4.   enter the input one:48
+     enter the input two:4
+     Enter your choice:
+     Enter an operator :/
+     48 / 4 : 12.0
+     
+     
+ EX2:    def covid(temp):
+             temp=98
+         charn=input("Enter the patient name:")
+         temp=int(input("Enter body temperature:"))
+         print(charn,temp)   
+         
+         
+  OUTPUT:   
+      Enter the patient name:uma
+      Enter body temperature:102
+      uma 102
+
+     Process finished with exit code 0
+       
+    
+     
+
+          
